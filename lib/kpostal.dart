@@ -6,10 +6,10 @@ export 'src/constant.dart';
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:kpostal/src/kpostal_model.dart';
 import 'package:kpostal/src/log.dart';
+import 'package:zikzak_inappwebview/zikzak_inappwebview.dart';
 
 class KpostalView extends StatefulWidget {
   static const String routeName = '/kpostal';
